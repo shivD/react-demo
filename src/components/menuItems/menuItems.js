@@ -4,7 +4,7 @@ import Styles from './menuItems.module.scss';
 const MenuItems= (props)=> {
     const listItems = props.menuLinks.map((items, index) =>
         <li key={index}>
-            <Links location="#"  title={items} />
+            <Links location="#" title={items} />
         </li>
     )
     return (

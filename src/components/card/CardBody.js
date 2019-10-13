@@ -1,9 +1,8 @@
 import React from 'react';
-import { Card } from '../card/card';
 
-const CardTitle = props=>{
+const CardBody = props=>{
     return (
-        <div className={'card-title'}>
+        <div className='card-body'>
           {props.children}
         </div>
     )

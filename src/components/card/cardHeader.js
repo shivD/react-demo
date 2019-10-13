@@ -1,8 +1,9 @@
-import Reat from 'react';
-export  const Cardheader = props=>{
+import React from 'react';
+ const Cardheader = props=>{
     return (
-        <div className={'card-title'}>
+        <div className='card-header'>
           {props.children}
         </div>
     )
 }
+export default Cardheader;

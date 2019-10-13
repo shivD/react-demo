@@ -1,9 +1,11 @@
 import React from 'react';
-export  const Card = props=>{
+ const Card = props=>{
+     const classes = props.color ? ' ' + props.color : '';
     return (
-        <div className={'card' + props.variant}>
+        <div className={'card' + classes}>
          {props.children}
         </div>
     )
 }
+export default Card;
 

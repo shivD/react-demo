@@ -3,7 +3,7 @@ import './Header.scss';
 
  const Header = (props)=>{
   return (
-      <header className={'header ' + props.variant}>{props.children}</header>
+      <header className={'header ' + props.color}>{props.children}</header>
   )
  }
  export default Header;

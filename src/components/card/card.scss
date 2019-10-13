@@ -1,0 +1,29 @@
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 15px;
+
+    .card-img{
+        font-size: 1.125rem;
+        text-anchor: middle;
+        user-select: none;
+        min-height:100px; 
+    }
+    .card-body{
+        ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 20px;
+    }
+    .card-header {
+        padding: .75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: rgba(0,0,0,.03);
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+}
