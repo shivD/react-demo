@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from '../card/card';
 
 const CardTitle = props=>{
     return (
@@ -8,4 +9,4 @@ const CardTitle = props=>{
     )
 }
 
-export default 
+export default CardBody;
