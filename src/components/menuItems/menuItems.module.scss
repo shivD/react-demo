@@ -6,19 +6,25 @@
         padding: 0;
         list-style: none;
         a{
-    display: block;
-    position: relative;
-    color: #413e66;
-    padding: 10px 15px;
-    transition: 0.3s;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-decoration: none;
-    &:hover{
-        color:#1bb1dc;
-    }
+            display: block;
+            position: relative;
+            color: #413e66;
+            padding: 30px 15px;
+            text-align: center;
+            transition: 0.3s;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            &:hover{
+                color:#1bb1dc;
+            }
         }
+    &:last-child{
+        a{
+            padding-right:0;
+        }
+    }
     }
 }

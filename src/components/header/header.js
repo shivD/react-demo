@@ -1,9 +1,9 @@
 import React from 'react';
-import Styles from './Header.module.scss';
+import './Header.scss';
 
- function Header(props){
+ const Header = (props)=>{
   return (
-      <header className={Styles.header +' ' +  props.variant}>{props.children}</header>
+      <header className={'header ' + props.variant}>{props.children}</header>
   )
  }
  export default Header;

@@ -1,10 +1,10 @@
 import React from 'react';
 import Links from '../links/';
 import Styles from './menuItems.module.scss';
-function MenuItems(props) {
+const MenuItems= (props)=> {
     const listItems = props.menuLinks.map((items, index) =>
-        <li>
-            <Links location="#" keyval={index} title={items} />
+        <li key={index}>
+            <Links location="#"  title={items} />
         </li>
     )
     return (
