@@ -4,6 +4,7 @@ import CardTitle from './CardTtitle';
 import CardImg from './CardImg';
 import CardBody from './CardBody';
 import CardFooter  from './CardFooter';
+import CardText  from './CardText'; 
 import './card.scss';
 export{
     Card,
@@ -11,5 +12,6 @@ export{
     CardTitle,
     CardBody,
     CardFooter,
-    CardImg
+    CardImg,
+    CardText
 }

@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './components/header/';
-import MenuItems from './components/menuItems/';
-import Link from './components/links/';
+import Header from './components/header';
+import MenuItems from './components/menuItems';
+import Link from './components/links';
 import Container from './components/container';
-import { Card, CardHeader, CardTitle, CardBody, CardImg, CardFooter } from './components/card/';
+import {CardText, Card, CardHeader, CardTitle, CardBody, CardImg, CardFooter } from './components/card/';
+import Alert from './components/alert';
 import './App.scss';
 
 class App extends React.Component {
@@ -21,35 +22,36 @@ class App extends React.Component {
             <div className='grid-3'>
               <div className='items'>
                 <Card color='primary'>
-                  <CardImg src="assets/img/card-img.jpg" />
+                  <CardImg src="assets/img/img1.jpg" />
                   <CardBody>
                     <CardTitle>Card header</CardTitle>
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                  </CardBody>
+                </Card>
+              </div>
+              <div className='items'>
+                <Card color='primary'>
+                  <CardImg src="assets/img/img2.jpg" />
+                  <CardBody>
+                    <CardTitle>Card header</CardTitle>
+                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                   </CardBody>
 
                 </Card>
               </div>
               <div className='items'>
                 <Card color='primary'>
-                  <CardImg src="assets/img/card-img.jpg" />
+                  <CardImg src="assets/img/img1.jpg" />
                   <CardBody>
                     <CardTitle>Card header</CardTitle>
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </CardBody>
-
-                </Card>
-              </div>
-              <div className='items'>
-                <Card color='primary'>
-                  <CardImg src="assets/img/card-img.jpg" />
-                  <CardBody>
-                    <CardTitle>Card header</CardTitle>
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                   </CardBody>
 
                 </Card>
               </div>
             </div>
+          <Alert color='primary' title='Primary Alert'/>
+          <Alert color='danger' title='Primary danger'/>
           </Container>
         </div>
       </React.Fragment>
