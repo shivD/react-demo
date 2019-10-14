@@ -4,4 +4,4 @@ function CardText (props){
      <p className={props.variant}>{props.children}</p>
  )
 }
-export default CardText;
+export default CardText; 

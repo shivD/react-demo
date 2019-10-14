@@ -3,7 +3,7 @@ import Header from './components/header';
 import MenuItems from './components/menuItems';
 import Link from './components/links';
 import Container from './components/container';
-import {CardText, Card, CardHeader, CardTitle, CardBody, CardImg, CardFooter } from './components/card/';
+import {CardText, Card, CardTitle, CardBody, CardImg } from './components/card';
 import Alert from './components/alert';
 import './App.scss';
 
@@ -22,7 +22,7 @@ class App extends React.Component {
             <div className='grid-3'>
               <div className='items'>
                 <Card color='primary'>
-                  <CardImg src="assets/img/img1.jpg" />
+                  <CardImg src="assets/img/img1.jpg" alt='imgage' />
                   <CardBody>
                     <CardTitle>Card header</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
@@ -31,7 +31,7 @@ class App extends React.Component {
               </div>
               <div className='items'>
                 <Card color='primary'>
-                  <CardImg src="assets/img/img2.jpg" />
+                  <CardImg src="assets/img/img2.jpg" alt='imgage' />
                   <CardBody>
                     <CardTitle>Card header</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
@@ -41,7 +41,7 @@ class App extends React.Component {
               </div>
               <div className='items'>
                 <Card color='primary'>
-                  <CardImg src="assets/img/img1.jpg" />
+                  <CardImg src="assets/img/img1.jpg" alt='imgage' />
                   <CardBody>
                     <CardTitle>Card header</CardTitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
