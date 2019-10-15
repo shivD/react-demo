@@ -8,7 +8,7 @@ const MenuItems= (props)=> {
         </li>
     )
     return (
-        <ul className={Styles.menuitems}>{listItems}</ul>
+        <ul className={Styles.menuitems+" "+ props.ToggleClass}>{listItems}</ul>
     )
 }
 export default MenuItems;

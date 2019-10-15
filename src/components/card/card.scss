@@ -14,9 +14,9 @@
         text-anchor: middle;
         user-select: none;
         height:200px; 
+        max-width: 100%
     }
     .card-body{
-        ms-flex: 1 1 auto;
         flex: 1 1 auto;
         padding: 20px;
     }

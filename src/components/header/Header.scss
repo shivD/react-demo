@@ -16,3 +16,20 @@ $white:#ffffff;
         background:$secondary;
     }
 }
+.mobile-menu{
+    display: none;
+     width:30px;
+     height: 30px;
+     margin-left: auto;
+     flex-direction: column;
+     span{ 
+         height:3px;
+         display: block;
+        background: gray;
+        margin: 2px 0;
+       width: 100%;
+     }
+    @media(max-width:767px){
+        display: flex;
+    }
+}

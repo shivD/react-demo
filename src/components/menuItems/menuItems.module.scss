@@ -1,6 +1,14 @@
 .menuitems{
     display: flex;
     margin-left: auto;
+    @media(max-width:767px){
+        display: none;
+        position: absolute;
+        top: 46px;
+        background: white;
+        z-index: 99;
+        width: 100%;
+    }
     li{
         margin: 0;
         padding: 0;
