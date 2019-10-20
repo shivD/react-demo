@@ -1,7 +1,7 @@
 import React from 'react';
-function Text (props){
+const  Text = (props)=>{
  return(
-     <sapn className={props.variant}>{props.children}</sapn>
+     <span className={{...props.name}}>{props.children}</span>
  )
 }
 export default Text;

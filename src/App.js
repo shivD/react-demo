@@ -5,7 +5,7 @@ import Link from './components/links';
 import Container from './components/container';
 import {CardText, Card, CardTitle, CardBody, CardImg } from './components/card';
 import Alert from './components/alert';
-import ToggleDisplay from 'react-toggle-display';
+import Text from './components/text';
 import './App.scss';
 
 class App extends React.Component {
@@ -81,6 +81,7 @@ class App extends React.Component {
             
           <Alert color='primary' title='Primary Alert'/>
           <Alert color='danger' title='Primary danger'/>
+        <Text size="red">ddddddddddddddddddddddd</Text>
           </Container>
         </div>
       </React.Fragment>
